@@ -6,4 +6,5 @@ void main() {
     assert (Ten == 10);
     assert (Threepointfourteen == "3.14");
     print($Ten and $Threepointfourteen is the answer to this exersise);
+    print("$Ten and $Threepointfourteen is the answer to this exersise");
 }
