@@ -35,15 +35,15 @@ void main() {
         balance=balance-withdraw;
         print("You have withdrawned $withdraw");
     }
-    ///invalid options
-    else if (enter <=5) {
-        print("Invalid Choice. Try Again");
-    }
     ///Exit
     else if (enter==4) {
         print("Thank you for using My Simple ATM Machine program");
         break;
 }
+    ///invalid options
+    else if (enter >=5) {
+        print("Invalid Choice. Try Again");
+    }
 }
 }
 
