@@ -4,10 +4,15 @@ import "dart:io";
 void main() {
     int secretNumber = 7;
     int guess;
+       print("Guess your secret number from 1 to 10");
     do {
-   print("Guess your secret number from 1 to 10");
    guess=int.parse(stdin.readLineSync() ?? "0");
+   if (guess==7) {
+   break;
+   }
+   else {
    print("Wrong guess, try again!");
-} while (guess!=7);
+   }
+} while (true);
 print ("You guessed it right!");
 }
