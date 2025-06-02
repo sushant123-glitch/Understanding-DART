@@ -16,6 +16,7 @@ String? calculateBMI(double weight, double height) {
     else if(bmi >=30) {
         return ("obese");
     }
+    return null;
 }
 
 /// Calling a function
