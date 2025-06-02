@@ -20,9 +20,6 @@ if (userInput<=todoList.length) {
   print("Enter the new task name:");
   String? newTask=stdin.readLineSync();
   userInput=userInput-1;
-  String? taskToBeRemoved;
-  todoList[userInput]= "$taskToBeRemoved";
-  todoList.remove("$todoList");
   todoList[userInput]=("$newTask");
   print("");
   print("");
